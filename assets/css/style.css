@@ -1,0 +1,309 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+.container_flex-x {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1050px;
+  margin: 0 auto;
+}
+.container_flex-y {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.header {
+  color: #FFF;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/Star-Wars-Battlefront-II-combat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header__content__card {
+  position: relative;
+  left: 300px;
+  height: 650px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header__content__card__buttons {
+  display: flex;
+}
+.header__content__card__button_green {
+  width: 150px;
+  height: 40px;
+  margin-right: 50px;
+  background-color: #8DD83D;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFF;
+}
+.header__content__card__button_gray {
+  width: 150px;
+  height: 40px;
+  margin-right: 50px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFF;
+}
+.header__content__card__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+}
+.header__content__card__subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.header__content__icon {
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  padding: 10px;
+  background-color: #373A3C;
+}
+.nav__input {
+  height: 30px;
+  width: 210px;
+}
+.nav__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  margin: 0 25px;
+  display: flex;
+  align-items: center;
+}
+
+.products {
+  background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.products__logo {
+  margin-top: 50px;
+}
+.products__list {
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.products__card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #435766;
+  width: 320px;
+  height: 420px;
+  background: #FFFFFF;
+  border: 1px solid #8DD83D;
+  border-radius: 4px;
+}
+.products__card__title {
+  width: 280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.products__card__text {
+  width: 280px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.products__card__button {
+  width: 280px;
+  height: 60px;
+  border: none;
+  background: #8DD83D;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.products__title {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFF;
+}
+.products__title span {
+  text-align: center;
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFF;
+}
+
+.design-lab {
+  color: #FFF;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 480px;
+}
+.design-lab__button_gray {
+  margin-right: 50px;
+  width: 210px;
+  height: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  border: none;
+}
+.design-lab__button_green {
+  width: 210px;
+  height: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #8DD83D;
+  border-radius: 4px;
+  border: none;
+}
+.design-lab__title {
+  padding-top: 150px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.design-lab__text {
+  max-width: 530px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.design-lab__buttons {
+  display: flex;
+}
+
+.footer {
+  padding-top: 50px;
+  background: #373A3C;
+  border-radius: 4px;
+}
+.footer__end {
+  margin-top: 30px;
+  border-top: 1px solid #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__end__position {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer__end__license {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.footer__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7DD42F;
+}
+.footer__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social {
+  margin-top: 50px;
+  display: flex;
+}
+.footer__social__item {
+  margin: 0 15px;
+}
+.footer__item {
+  margin-top: 50px;
+}/*# sourceMappingURL=style.css.map */
